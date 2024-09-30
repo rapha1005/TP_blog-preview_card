@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #F4D04E;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border-radius: 20px;
+    background-color: white;
+    width: 384px;
+    height: auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 0px 0px #000000;
+}
+
+#blogimage {
+    align-self: center;
+    height: 200px;
+    margin-bottom: 24px;
+}
+
+#Learning {
+    text-align: center;
+    width: 82px;
+    height: 29px;
+    padding: 4px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 800;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+#date{
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+#description{
+   color: #7F7F7F;
+   margin-bottom: 24px;
+}
+#user{
+    display: flex;
+    align-items: center;
+}
+#userpic {
+    width: 32px;
+    height: 32px;
+    margin-right: 13px;
+}
+
+#name {
+    display: inline-block;
+}
