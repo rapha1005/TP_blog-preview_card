@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box; 
+}
+
+.course-image{
+    width: 100%;
+}
+body{
+    background-color: #F4D04E;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+main{
+    background-color: white;
+    width: 384px;
+    padding: 24px;
+    border: 1px solid black;
+}
